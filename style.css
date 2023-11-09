@@ -3,14 +3,14 @@ body {
     font-family: Work Sans, sans-serif;
     transform: scaleX(90%);
 }
-    @media screen  and (max-width: 991px) {
-    hr {
-        visibility: hidden;
-    }
-    h6{
-        visibility: hidden;
-    }
-}
+/*    @media screen  and (max-width: 991px) {*/
+/*    hr {*/
+/*        visibility: hidden;*/
+/*    }*/
+/*    h6{*/
+/*        visibility: hidden;*/
+/*    }*/
+/*}*/
 
 .logo {
     display: flex;
@@ -41,14 +41,14 @@ body {
     padding-right: 10px;
     padding-left: 10px;
 }
-.logoholder {
-    display: inline-flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
+/*#logoholder {*/
+/*    display: inline-flex;*/
+/*    justify-content: space-evenly;*/
+/*    width: 100%;*/
+/*}*/
 
-.selected {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    display: flex;
-}
+/*.selected {*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-evenly;*/
+/*    display: flex;*/
+/*}*/
