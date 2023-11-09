@@ -1,5 +1,11 @@
 /*css rules to specify family: font-family: 'Work Sans', sans-serif*/
 
-@media screen  and {
+@media screen  and (max-width: 767px) {
 
 }
+
+/*.navbar {*/
+/*    display: inline-block;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*}*/
