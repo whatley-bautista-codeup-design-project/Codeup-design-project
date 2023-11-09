@@ -1,6 +1,9 @@
 /*css rules to specify family: font-family: 'Work Sans', sans-serif*/
-
-@media screen  and (max-width: 991px) {
+body {
+    font-family: Work Sans, sans-serif;
+    transform: scaleX(90%);
+}
+    @media screen  and (max-width: 991px) {
     hr {
         visibility: hidden;
     }
@@ -8,12 +11,6 @@
         visibility: hidden;
     }
 }
-
-/*.navbar {*/
-/*    display: inline-block;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-between;*/
-/*}*/
 
 .logo {
     display: flex;
@@ -40,11 +37,18 @@
     background-color: steelblue;
     color: black;
     border-radius: 100%;
-    font-family: Work Sans, sans-serif;
     font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .logoholder {
     display: inline-flex;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.selected {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
 }
