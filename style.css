@@ -1,5 +1,50 @@
 /*css rules to specify family: font-family: 'Work Sans', sans-serif*/
 
-@media screen  and {
+@media screen  and (max-width: 991px) {
+    hr {
+        visibility: hidden;
+    }
+    h6{
+        visibility: hidden;
+    }
+}
 
+/*.navbar {*/
+/*    display: inline-block;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    border-radius: 100%;
+    font-family: Work Sans, sans-serif;
+    border: 8px solid #f0f0f0;
+    font-weight: bold;
+
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    background-color: steelblue;
+    color: black;
+    border-radius: 100%;
+    font-family: Work Sans, sans-serif;
+    font-weight: bold;
+}
+.logoholder {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
