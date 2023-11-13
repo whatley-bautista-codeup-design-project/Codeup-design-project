@@ -41,14 +41,28 @@ body {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 993px) {
 
     #right {
         visibility: hidden;
+        display: none;
 
+    }
+    #last{
+        visibility: hidden;
     }
 }
 
 ul {
   padding-left: 1%;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
 }
