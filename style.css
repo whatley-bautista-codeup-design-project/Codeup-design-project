@@ -66,3 +66,9 @@ section {
     /*display: flex;*/
     /*align-items: flex-start;*/
 }
+
+/*@media screen and (max-width: 599px) {*/
+/*    img {*/
+/*        width: 70%;*/
+/*    }*/
+/*}*/
